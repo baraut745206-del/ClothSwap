@@ -7,6 +7,9 @@ import AddItem from './pages/AddItem.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import ItemDetails from './pages/ItemDetails.jsx';
 import API from './services/api.js';
+import Admin from './pages/Admin.jsx';
+import Calculator from './pages/Calculator.jsx';
+import Chat from './pages/Chat.jsx';
 import { Sparkles, ArrowRight, MapPin, Repeat, Search, SlidersHorizontal, CheckCircle2 } from 'lucide-react';
 
 function Home() {
@@ -223,6 +226,9 @@ export default function App() {
           <Route path="/add-item" element={<AddItem />} />
           <Route path="/items/:id" element={<ItemDetails />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
       </main>
     </div>

@@ -1,16 +1,24 @@
-# React + Vite
+# ClothSwap – Sustainable Clothing Exchange Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack C2C clothing exchange and swap marketplace built using the MERN stack.
 
-Currently, two official plugins are available:
+## Live Demo & Links
+- **Live Website**: [ClothSwap on Vercel](https://cloth-swap-nine.vercel.app)
+- **Backend API**: Hosted on Render
+- **Database**: MongoDB Atlas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Key Features & Modules
+1. **User Authentication**: Secure JWT-based Login and Registration.
+2. **Explore & Listings**: Community marketplace with location, brand, and category filtering.
+3. **Item Details**: View complete details, condition, size, and initiate swap actions.
+4. **List an Item**: Form to upload and list clothing items with custom barter details.
+5. **User Dashboard**: Track active listings, personal items, and exchange history.
+6. **Swap Value Calculator**: Algorithmic valuation based on brand tier, condition, and original price.
+7. **Negotiation Chat**: Dedicated interface for users to negotiate swap terms.
+8. **Admin Panel**: Listing moderation table, live delete action, and platform statistics.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend**: React.js, Tailwind CSS, Lucide Icons, Vite
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas
+- **Deployment**: Vercel (Frontend), Render (Backend)
